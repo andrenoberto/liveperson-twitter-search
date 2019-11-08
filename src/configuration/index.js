@@ -4,7 +4,7 @@ const server = {
 
 const twitter = {
   api: {
-    endpoint: process.env.TWITTER_API_ENDPOINT,
+    baseUrl: process.env.TWITTER_API_BASE_URL,
     version: process.env.TWITTER_API_VERSION,
   },
   consumerApi: {
