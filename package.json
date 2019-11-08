@@ -1,0 +1,22 @@
+{
+  "name": "liveperson-twitter-search",
+  "version": "1.0.0",
+  "description": "An API that make calls to Twitter API's and looks for tweets with #liveperson",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrenoberto/liveperson-twitter-search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrenoberto/liveperson-twitter-search/issues"
+  },
+  "homepage": "https://github.com/andrenoberto/liveperson-twitter-search#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
