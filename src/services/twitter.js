@@ -2,30 +2,22 @@ const { twitter } = require('../configuration');
 const { encodeCredentials, request } = require('../helpers');
 
 class TwitterService {
-  async searchTweetsWithHashtags(...tags) {
-    const accessToken = await this.getAccessToken();
-    const hashtags = this.addHashSymbol(tags);
-    const queryString = hashtags.join('+');
-    const options = {
-      uri: `${twitter.api.baseUrl}/${twitter.api.version}/search/tweets.json`,
-      headers: {
-        'Authorization': `Bearer ${accessToken}`,
-      },
-      method: 'GET',
-      qs: {
-        'q': queryString,
-      },
-    };
-
+  async searchTweets(queryString) {
     try {
+      const accessToken = await this.getAccessToken();
+      const options = {
+        uri: `${twitter.api.baseUrl}/${twitter.api.version}/search/tweets.json`,
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+        },
+        method: 'GET',
+        qs: queryString,
+      };
+
       return await request(options);
     } catch (err) {
       console.error(err);
     }
-  }
-
-  addHashSymbol(...tags) {
-    return tags.map(tag => `#${tag}`);
   }
 
   async getAccessToken() {
@@ -57,14 +49,10 @@ class TwitterService {
       };
       const { access_token } = await request(options);
       
-      this.setAccessToken(access_token);
+      this.accessToken = access_token;
     } catch (err) {
       console.error(err);
     }
-  }
-
-  setAccessToken(accessToken) {
-    this.accessToken = accessToken;
   }
 }
 
