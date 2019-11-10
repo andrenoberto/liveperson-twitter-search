@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
 
-const { DatabaseService } = require('../services');
+const database = require('../database');
 
-const User = DatabaseService.define('user', {
+const User = database.define('user', {
   id: {
     type: Sequelize.INTEGER,
     primaryKey: true,

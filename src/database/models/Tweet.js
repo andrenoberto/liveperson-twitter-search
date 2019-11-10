@@ -1,9 +1,9 @@
 const Sequelize = require('sequelize');
 
-const { DatabaseService } = require('../services');
+const database = require('../database');
 const User = require('./User');
 
-const Tweet = DatabaseService.define('tweet', {
+const Tweet = database.define('tweet', {
   id: {
     type: Sequelize.INTEGER,
     primaryKey: true,

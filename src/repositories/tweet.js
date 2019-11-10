@@ -1,4 +1,4 @@
-const { Tweet, User } = require('../models');
+const { Tweet, User } = require('../database/models');
 
 const exclude = ['creadtedAt', 'updatedAt', 'userId'];
 const include = [
