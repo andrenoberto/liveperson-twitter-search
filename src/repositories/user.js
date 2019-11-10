@@ -1,39 +1,16 @@
 const { User } = require('../models');
 
 const createUser = async user => {
-  const {
-    id,
-    name,
-    screen_name,
-    location,
-    description,
-    verified,
-    profile_banner_url,
-    profile_image_url_https,
-  } = user;
+  const { id } = user;
 
-  User.create({
-    id,
-    name,
-    screen_name,
-    location,
-    description,
-    verified,
-    profile_banner_url,
-    profile_image_url_https,
+  return await User.findCreateFind({
+    where: {
+      id,
+    },
+    defaults: user,
   });
-}
-
-const isUserInDatabase = async ({ id }) => {
-  const user = await findUser(id);
-
-  return !user;
-}
-
-const findUser = async id => await User.findByPk(id);
+};
 
 module.exports = {
   createUser,
-  findUser,
-  isUserInDatabase,
 };
