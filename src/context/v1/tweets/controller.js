@@ -3,12 +3,23 @@ const { TweetRepository, UserRepository } = require('../../../repositories');
 
 const getTweets = async (req, res) => {
   const { query } =  req;
-  const { statuses } = await TwitterService.searchTweets(query);
+  const {
+    statuses,
+    search_metadata: {
+      next_results,
+    },
+  } = await TwitterService.searchTweets(query);
 
   await Promise.all(statuses.map(addTweet));
   const tweets = await findAllTweets();
 
-  res.json(tweets);
+  res.json({
+    search_metadata: {
+      next_results,
+      count: tweets.length,
+    },
+    tweets
+  });
 };
 
 const addTweet = async newTweet => {
