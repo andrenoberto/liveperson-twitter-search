@@ -16,6 +16,7 @@ const Tweet = database.define('tweet', {
   reply_count: Sequelize.INTEGER,
   retweet_count: Sequelize.INTEGER,
   favorite_count: Sequelize.INTEGER,
+  created_at: Sequelize.STRING,
 });
 
 Tweet.belongsTo(User);

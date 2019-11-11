@@ -1,6 +1,6 @@
 const { Tweet, User } = require('../database/models');
 
-const exclude = ['creadtedAt', 'updatedAt', 'userId'];
+const exclude = ['createdAt', 'updatedAt', 'userId'];
 const include = [
   {
     model: User,
@@ -36,6 +36,7 @@ const findAll = async () => await Tweet.findAll({
     exclude,
   },
   include,
+  order: orderByCreationDate,
 });
 
 module.exports = {
