@@ -8,12 +8,12 @@ const User = database.define('user', {
     primaryKey: true,
   },
   name: Sequelize.STRING,
-  screen_name: Sequelize.STRING,
+  screenName: Sequelize.STRING,
   location: Sequelize.STRING,
   description: Sequelize.STRING,
+  url: Sequelize.STRING,
   verified: Sequelize.BOOLEAN,
-  profile_banner_url: Sequelize.STRING,
-  profile_image_url_https: Sequelize.STRING,
+  profileImage: Sequelize.STRING,
 });
 
 module.exports = User;

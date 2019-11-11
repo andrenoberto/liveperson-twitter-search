@@ -6,7 +6,7 @@ const getTweets = async (req, res) => {
   const {
     statuses,
     search_metadata: {
-      next_results,
+      next_results: nextResults,
     },
   } = await TwitterService.searchTweets(query);
 
@@ -14,8 +14,8 @@ const getTweets = async (req, res) => {
   const tweets = await findAllTweets();
 
   res.json({
-    search_metadata: {
-      next_results,
+    searchMetadata: {
+      nextResults,
       count: tweets.length,
     },
     tweets

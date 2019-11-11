@@ -1,13 +1,15 @@
   
 const express = require('express');
+const cors = require('cors');
 
 const routes = require('./routes');
+
 const app = express();
-
-function errorHandling(err, req, res, next) {
+const errorHandling = (err, req, res, next) => {
   console.error(err);
-}
+};
 
+app.use(cors({ origin: '*' }));
 app.use('/api', routes);
 app.use(errorHandling);
 

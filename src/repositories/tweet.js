@@ -7,18 +7,18 @@ const include = [
     attributes: [
       'id',
       'name',
-      'screen_name',
-      'profile_banner_url',
-      'profile_image_url_https',
+      'screenName',
+      'profileImage',
     ],
   },
 ];
 const orderByCreationDate = [
-  ['created_at', 'DESC'],
+  ['timestamp', 'DESC'],
 ];
 
 const createTweet = async newTweet => {
-  const { user, ...tweet } = newTweet;
+  const { user, ...tweet } = getNormalizedTweet(newTweet);
+
 
   return await Tweet.findCreateFind({
     where: {
@@ -30,6 +30,30 @@ const createTweet = async newTweet => {
     }
   });
 };
+
+const getNormalizedTweet = tweet => {
+  const {
+    id,
+    text,
+    truncated,
+    reply_count: replyCount,
+    retweet_count: retweetCount,
+    favorite_count: favoriteCount,
+    created_at: timestamp,
+    user,
+  } = tweet;
+
+  return {
+    id,
+    text,
+    truncated,
+    replyCount,
+    retweetCount,
+    favoriteCount,
+    timestamp,
+    user,
+  };
+}
 
 const findAll = async () => await Tweet.findAll({
   attributes: {
