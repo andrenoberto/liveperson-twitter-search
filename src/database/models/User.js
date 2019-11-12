@@ -3,17 +3,17 @@ const Sequelize = require('sequelize');
 const database = require('../database');
 
 const User = database.define('user', {
-  id: {
-    type: Sequelize.INTEGER,
+  id_str: {
+    type: Sequelize.STRING,
     primaryKey: true,
   },
   name: Sequelize.STRING,
-  screenName: Sequelize.STRING,
+  screen_name: Sequelize.STRING,
   location: Sequelize.STRING,
   description: Sequelize.STRING,
   url: Sequelize.STRING,
   verified: Sequelize.BOOLEAN,
-  profileImage: Sequelize.STRING,
+  profile_image_url_https: Sequelize.STRING,
 });
 
 module.exports = User;

@@ -5,60 +5,41 @@ const include = [
   {
     model: User,
     attributes: [
-      'id',
+      ['id_str', 'id'],
       'name',
-      'screenName',
-      'profileImage',
+      ['profile_image_url_https', 'profileImage'],
+      ['screen_name', 'screenName'],
+      'url',
     ],
   },
 ];
 const orderByCreationDate = [
-  ['timestamp', 'DESC'],
+  ['created_at', 'DESC'],
 ];
 
 const createTweet = async newTweet => {
-  const { user, ...tweet } = getNormalizedTweet(newTweet);
+  const { user, ...tweet } = newTweet;
 
 
   return await Tweet.findCreateFind({
     where: {
-      id: tweet.id,
+      id_str: tweet.id_str,
     },
     defaults: {
       ...tweet,
-      userId: user.id,
+      userIdStr: user.id_str,
     }
   });
 };
 
-const getNormalizedTweet = tweet => {
-  const {
-    id,
-    text,
-    truncated,
-    reply_count: replyCount,
-    retweet_count: retweetCount,
-    favorite_count: favoriteCount,
-    created_at: timestamp,
-    user,
-  } = tweet;
-
-  return {
-    id,
-    text,
-    truncated,
-    replyCount,
-    retweetCount,
-    favoriteCount,
-    timestamp,
-    user,
-  };
-}
-
 const findAll = async () => await Tweet.findAll({
-  attributes: {
-    exclude,
-  },
+  attributes: [
+    ['id_str', 'id'],
+    ['reply_count', 'replyCount'],
+    'text',
+    ['retweet_count', 'retweetCount'],
+    ['favorite_count', 'favoriteCounte'],
+  ],
   include,
   order: orderByCreationDate,
 });
