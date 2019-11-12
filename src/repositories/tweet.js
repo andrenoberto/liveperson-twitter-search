@@ -1,7 +1,15 @@
 const { Tweet, User } = require('../database/models');
 
 const exclude = ['createdAt', 'updatedAt', 'userId'];
-const include = [
+const tweetAttributes = [
+  ['id_str', 'id'],
+  ['reply_count', 'replyCount'],
+  'text',
+  ['retweet_count', 'retweetCount'],
+  ['favorite_count', 'favoriteCount'],
+  ['created_at', 'createdAt']
+];
+const userAttributes = [
   {
     model: User,
     attributes: [
@@ -33,14 +41,8 @@ const createTweet = async newTweet => {
 };
 
 const findAll = async () => await Tweet.findAll({
-  attributes: [
-    ['id_str', 'id'],
-    ['reply_count', 'replyCount'],
-    'text',
-    ['retweet_count', 'retweetCount'],
-    ['favorite_count', 'favoriteCounte'],
-  ],
-  include,
+  attributes: tweetAttributes,
+  include: userAttributes,
   order: orderByCreationDate,
 });
 
