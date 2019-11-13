@@ -4,19 +4,12 @@
   "description": "An API that make calls to Twitter API's and looks for tweets with #liveperson",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon app/index.js",
+    "dev": "nodemon ./app/bin/www",
+    "start": "node ./app/bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andrenoberto/liveperson-twitter-search.git"
-  },
-  "author": "",
+  "author": "Andre Noberto",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/andrenoberto/liveperson-twitter-search/issues"
-  },
-  "homepage": "https://github.com/andrenoberto/liveperson-twitter-search#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -24,10 +17,10 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.8",
     "sequelize": "^5.21.2",
-    "sequelize-cli": "^5.5.1",
     "sqlite3": "^4.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
   }
 }

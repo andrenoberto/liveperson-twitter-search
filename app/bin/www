@@ -1,8 +1,8 @@
 require('dotenv').config();
 
-const app = require('./app');
-const { server } = require('./configuration');
-const { onStartupError } = require('./helpers');
+const app = require('../app');
+const { server } = require('../configuration');
+const { onStartupError } = require('../helpers');
 
 const onStartUpSuccess = () => console.info(`Server started listening at port ${server.port}`);
 
