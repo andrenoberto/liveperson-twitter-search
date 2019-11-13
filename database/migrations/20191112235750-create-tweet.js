@@ -1,48 +1,41 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Tweets', {
-      id: {
+    return queryInterface.createTable('tweets', {
+      id_str: {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.STRING
       },
-      userId: {
+      user_id_str: {
         type: Sequelize.STRING,
         references: {
           model: {
-            tableName: 'Users'
+            tableName: 'users'
           },
-          key: 'id'
+          key: 'id_str'
         },
         allowNull: false
       },
       text: {
         type: Sequelize.STRING
       },
-      replyCount: {
+      reply_count: {
         type: Sequelize.NUMBER
       },
-      retweetCount: {
+      retweet_count: {
         type: Sequelize.NUMBER
       },
-      favoriteCount: {
+      favorite_count: {
         type: Sequelize.NUMBER
       },
-      timestamp: {
-        type: Sequelize.STRING
-      },
-      createdAt: {
+      created_at: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Tweets');
+    return queryInterface.dropTable('tweets');
   }
 };

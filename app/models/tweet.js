@@ -1,18 +1,22 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const Tweet = sequelize.define('Tweet', {
-    userId: DataTypes.STRING,
+    id_str: {
+      type: DataTypes.STRING,
+      primaryKey: true,
+    },
+    user_id_str: DataTypes.STRING,
     text: DataTypes.STRING,
-    replyCount: DataTypes.NUMBER,
-    retweetCount: DataTypes.NUMBER,
-    favoriteCount: DataTypes.NUMBER,
-    timestamp: DataTypes.STRING
+    reply_count: DataTypes.NUMBER,
+    retweet_count: DataTypes.NUMBER,
+    favorite_count: DataTypes.NUMBER,
+    created_at: DataTypes.STRING
   }, {});
   Tweet.associate = function (models) {
     Tweet.belongsTo(models.User, { as: 'user' });
   };
   Tweet.addHook('beforeCreate', tweet => {
-    tweet.timestamp = new Date(tweet.timestamp).toISOString();
+    tweet.created_at = new Date(tweet.created_at).toISOString();
   });
   return Tweet;
 };

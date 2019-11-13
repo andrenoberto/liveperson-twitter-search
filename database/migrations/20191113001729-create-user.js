@@ -1,8 +1,8 @@
 'use strict';
 module.exports = {
   up: (queryInterface, Sequelize) => {
-    return queryInterface.createTable('Users', {
-      id: {
+    return queryInterface.createTable('users', {
+      id_str: {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.STRING
@@ -10,7 +10,7 @@ module.exports = {
       name: {
         type: Sequelize.STRING
       },
-      screenName: {
+      screen_name: {
         type: Sequelize.STRING
       },
       location: {
@@ -25,20 +25,12 @@ module.exports = {
       verified: {
         type: Sequelize.BOOLEAN
       },
-      profileImage: {
+      profile_image_url_https: {
         type: Sequelize.STRING
       },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      }
     });
   },
   down: (queryInterface, Sequelize) => {
-    return queryInterface.dropTable('Users');
+    return queryInterface.dropTable('users');
   }
 };
