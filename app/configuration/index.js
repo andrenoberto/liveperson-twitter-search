@@ -1,5 +1,5 @@
 const server = {
-  port: process.env.PORT,
+  port: process.env.PORT || 3000,
 };
 
 const twitter = {
