@@ -20,6 +20,10 @@ const HTTP_STATUSES = {
 };
 
 const throwSequelizeError = err => {
+  if (err.isNormalized) {
+    throw err;
+  }
+
   const { original: { code } } = err;
   console.error(err);
   throw {
@@ -30,8 +34,12 @@ const throwSequelizeError = err => {
 }
 
 const throwTwitterError = err => {
+  if (err.isNormalized) {
+    throw err;
+  }
+
   const { errors } = JSON.parse(err.error);
-  console.error(err);
+  console.error('TWErr', err);
   throw {
     errors,
     isNormalized: true,
