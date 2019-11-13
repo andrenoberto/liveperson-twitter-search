@@ -5,8 +5,16 @@ const cors = require('cors');
 const routes = require('./routes');
 
 const app = express();
+
 const errorHandling = (err, req, res, next) => {
-  console.error(err);
+  if (err.isNormalized) {
+    const { statusCode, errors } = err;
+    res.status(statusCode).json({ errors });
+  }
+
+  res.status(500).json({
+    errors: [{ message: 'An internal server error has occurred.' }],
+  });
 };
 
 app.use(cors({ origin: '*' }));

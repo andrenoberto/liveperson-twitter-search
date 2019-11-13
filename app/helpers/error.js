@@ -1,4 +1,4 @@
-const HTTP_STATUS = {
+const HTTP_STATUSES = {
   success: {
     ok: 200,
     created: 201,
@@ -16,43 +16,30 @@ const HTTP_STATUS = {
     notImplemented: 501,
     badGateway: 502,
     serviceUnavailable: 503,
-  }
+  },
 };
 
-const onCreateSuccess = (result, response) => response.status(HTTP_STATUS.success.created).json(result);
+const throwSequelizeError = err => {
+  const { original: { code } } = err;
+  console.error(err);
+  throw {
+    errors: [{ code, message: 'Database error.' }],
+    isNormalized: true,
+    statusCode: HTTP_STATUSES.serverError.internalServerError,
+  };
+}
 
-const handleError = (err, response) => {
-  logErrorMessage('Error message:', err);
-
-  if (err.name = 'SequelizeUniqueConstraintError') {
-    const errors = getErrorMessagesFromSequelize(err);
-    response.status(HTTP_STATUS.clientError.conflict).json(errors);
-  } else {
-    response.status(HTTP_STATUS.serverError.internalServerError).end();
-  }
-};
-
-const logErrorMessage = error => {
-  let errorMessage = error;
-
-  if (typeof error === 'object') {
-    errorMessage = getErrorMessageAsString(error);
-  }
-
-  console.error(errorMessage);
-};
-
-const getErrorMessageAsString = error => JSON.stringify(error);
-
-const getErrorMessagesFromSequelize = err => {
-  const { errors } = err;
-
-  return errors ? {
-    errors: errors.map(({ message }) => ({ message })),
-  } : {};
+const throwTwitterError = err => {
+  const { errors } = JSON.parse(err.error);
+  console.error(err);
+  throw {
+    errors,
+    isNormalized: true,
+    statusCode: HTTP_STATUSES.clientError.forbidden,
+  };
 };
 
 module.exports = {
-  onCreateSuccess,
-  handleError,
+  throwSequelizeError,
+  throwTwitterError,
 };

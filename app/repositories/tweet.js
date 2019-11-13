@@ -18,17 +18,14 @@ const orderByCreationDate = [
   ['timestamp', 'DESC'],
 ];
 
-const createTweet = async tweet => {
-
-  return await Tweet.findCreateFind({
-    where: {
-      id: tweet.id,
-    },
-    defaults: {
-      ...tweet,
-    }
-  });
-};
+const createTweet = async tweet => await Tweet.findCreateFind({
+  where: {
+    id: tweet.id,
+  },
+  defaults: {
+    ...tweet,
+  }
+});
 
 const findAll = async () => await Tweet.findAll({
   attributes: { exclude },

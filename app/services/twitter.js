@@ -1,5 +1,5 @@
 const { twitter } = require('../configuration');
-const { encodeCredentials, request } = require('../helpers');
+const { encodeCredentials, request, throwTwitterError } = require('../helpers');
 
 class TwitterService {
   async searchTweets(queryString) {
@@ -16,16 +16,20 @@ class TwitterService {
 
       return await request(options);
     } catch (err) {
-      console.error(err);
+      throwTwitterError(err);
     }
   }
 
   async getAccessToken() {
-    if (this.isAccessTokenAvailable()) {
-      return this.accessToken;
-    }
+    try {
+      if (this.isAccessTokenAvailable()) {
+        return this.accessToken;
+      }
 
-    await this.requestAccessToken();
+      await this.requestAccessToken();
+    } catch (err) {
+      throwTwitterError(err);
+    }
 
     return this.accessToken;
   }
@@ -48,10 +52,10 @@ class TwitterService {
         },
       };
       const { access_token } = await request(options);
-      
+
       this.accessToken = access_token;
     } catch (err) {
-      console.error(err);
+      throwTwitterError(err);
     }
   }
 }

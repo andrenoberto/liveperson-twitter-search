@@ -1,35 +1,42 @@
+const { throwSequelizeError } = require('../../../helpers');
 const { TwitterService } = require('../../../services');
 const { TweetRepository, UserRepository } = require('../../../repositories');
 
-const getTweets = async (req, res) => {
-  const { query } = req;
-  const {
-    statuses,
-    search_metadata: {
-      next_results: nextResults,
-    },
-  } = await TwitterService.searchTweets(query);
+const getTweets = async (req, res, next) => {
+  try {
+    const { query } = req;
+    const {
+      statuses,
+      search_metadata: {
+        next_results: nextResults,
+      },
+    } = await TwitterService.searchTweets(query);
 
-  await Promise.all(statuses.map(addTweet));
-  const tweets = await findAllTweets();
+    await Promise.all(statuses.map(addTweet));
+    const tweets = await TweetRepository.findAll();
 
-  res.json({
-    searchMetadata: {
-      nextResults,
-      count: tweets.length,
-    },
-    tweets,
-  });
+    res.json({
+      searchMetadata: {
+        nextResults,
+        count: tweets.length,
+      },
+      tweets,
+    });
+  } catch (err) {
+    next(err);
+  }
 };
 
-const findAllTweets = async () => await TweetRepository.findAll();
-
 const addTweet = async newTweet => {
-  const tweet = getNormalizedTweet(newTweet);
-  const user = getNormalizedUser(newTweet);
- 
-  await UserRepository.createUser(user);
-  await TweetRepository.createTweet(tweet);
+  try {
+    const tweet = getNormalizedTweet(newTweet);
+    const user = getNormalizedUser(newTweet);
+
+    await UserRepository.createUser(user);
+    await TweetRepository.createTweet(tweet);
+  } catch (err) {
+    throwSequelizeError(err)
+  }
 };
 
 const getNormalizedTweet = tweet => ({
