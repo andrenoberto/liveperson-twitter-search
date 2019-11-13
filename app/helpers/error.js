@@ -19,6 +19,25 @@ const HTTP_STATUSES = {
   },
 };
 
+const onStartupError = (err, port) => {
+  if (err.syscall !== 'listen') {
+    throw err;
+  }
+
+  switch (err.code) {
+    case 'EACCES':
+      console.error(`Port ${port} requires elevated privileges.`);
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(`Port ${port} is already in use.`);
+      process.exit(1);
+      break;
+    default:
+      throw err;
+  }
+};
+
 const throwSequelizeError = err => {
   if (err.isNormalized) {
     throw err;
@@ -48,6 +67,7 @@ const throwTwitterError = err => {
 };
 
 module.exports = {
+  onStartupError,
   throwSequelizeError,
   throwTwitterError,
 };

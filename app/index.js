@@ -2,5 +2,10 @@ require('dotenv').config();
 
 const app = require('./app');
 const { server } = require('./configuration');
+const { onStartupError } = require('./helpers');
 
-app.listen(server.port, () => console.info(`Server started listening at port ${server.port}`));
+const onStartUpSuccess = () => console.info(`Server started listening at port ${server.port}`);
+
+app
+  .listen(server.port, onStartUpSuccess)
+  .on('error', err => onStartupError(err, server.port));
