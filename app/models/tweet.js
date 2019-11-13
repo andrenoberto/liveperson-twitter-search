@@ -11,5 +11,8 @@ module.exports = (sequelize, DataTypes) => {
   Tweet.associate = function (models) {
     Tweet.belongsTo(models.User, { as: 'user' });
   };
+  Tweet.addHook('beforeCreate', tweet => {
+    tweet.timestamp = new Date(tweet.timestamp).toISOString();
+  });
   return Tweet;
 };
