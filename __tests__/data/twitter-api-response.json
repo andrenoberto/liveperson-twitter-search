@@ -1,0 +1,1825 @@
+{
+  "statuses": [
+    {
+      "created_at": "Wed Nov 13 19:20:09 +0000 2019",
+      "id": 1194696469837565953,
+      "id_str": "1194696469837565953",
+      "text": "$LPSN in Downtrend: Stochastic indicator is sitting in oversold zone for 1 day. View odds for this and other indica… https://t.co/jgQ9OyJA9M",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/jgQ9OyJA9M",
+            "expanded_url": "https://twitter.com/i/web/status/1194696469837565953",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Nov 12 19:19:00 +0000 2019",
+      "id": 1194333792879595521,
+      "id_str": "1194333792879595521",
+      "text": "RT @Tickeron: $LPSN's 10-day Moving Average moved above its 50-day Moving Average on October 17, 2019. View odds for this and other indicat…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              14,
+              19
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "Tickeron",
+            "name": "Tickeron",
+            "id": 374729426,
+            "id_str": "374729426",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.tradersreport.de\" rel=\"nofollow\">tradersreport Twitter-Bot</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 20385337,
+        "id_str": "20385337",
+        "name": "tradersreport",
+        "screen_name": "tradersreport",
+        "location": "worldwide",
+        "description": "Der tradersreport bietet seinen Lesern innovative und nachvollziehbare Anlage- und Tradingmöglichkeiten.",
+        "url": "http://t.co/28SzutVBXb",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/28SzutVBXb",
+                "expanded_url": "http://www.tradersreport.de",
+                "display_url": "tradersreport.de",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 3170,
+        "friends_count": 3532,
+        "listed_count": 47,
+        "created_at": "Sun Feb 08 19:12:57 +0000 2009",
+        "favourites_count": 506,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 23832,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1370122673/TR_7070_normal.gif",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1370122673/TR_7070_normal.gif",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/20385337/1398424302",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Tue Nov 12 19:18:11 +0000 2019",
+        "id": 1194333585727057920,
+        "id_str": "1194333585727057920",
+        "text": "$LPSN's 10-day Moving Average moved above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/gFuzNPnhDq",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [
+            {
+              "text": "LPSN",
+              "indices": [
+                0,
+                5
+              ]
+            }
+          ],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/gFuzNPnhDq",
+              "expanded_url": "https://twitter.com/i/web/status/1194333585727057920",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 374729426,
+          "id_str": "374729426",
+          "name": "Tickeron",
+          "screen_name": "Tickeron",
+          "location": "Sunnyvale, CA",
+          "description": "Follow us to receive trading signals from our A.I.",
+          "url": "https://t.co/zOu1QMv33R",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/zOu1QMv33R",
+                  "expanded_url": "https://ilikeai.tickeron.com",
+                  "display_url": "ilikeai.tickeron.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1149,
+          "friends_count": 800,
+          "listed_count": 28,
+          "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+          "favourites_count": 53,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 265434,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 1,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Tue Nov 12 19:18:11 +0000 2019",
+      "id": 1194333585727057920,
+      "id_str": "1194333585727057920",
+      "text": "$LPSN's 10-day Moving Average moved above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/gFuzNPnhDq",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/gFuzNPnhDq",
+            "expanded_url": "https://twitter.com/i/web/status/1194333585727057920",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Mon Nov 11 18:58:02 +0000 2019",
+      "id": 1193966129779073025,
+      "id_str": "1193966129779073025",
+      "text": "$LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/co9871ve4P",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/co9871ve4P",
+            "expanded_url": "https://twitter.com/i/web/status/1193966129779073025",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sun Nov 10 19:30:55 +0000 2019",
+      "id": 1193612016860033024,
+      "id_str": "1193612016860033024",
+      "text": "$LPSN's 10-day Moving Average crossed above its 50-day Moving Average on October 17, 2019. View odds for this and o… https://t.co/cWrjJ31tFY",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/cWrjJ31tFY",
+            "expanded_url": "https://twitter.com/i/web/status/1193612016860033024",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Nov 09 21:49:07 +0000 2019",
+      "id": 1193284405239914504,
+      "id_str": "1193284405239914504",
+      "text": "RT @Tickeron: $LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and other indicat…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              14,
+              19
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "Tickeron",
+            "name": "Tickeron",
+            "id": 374729426,
+            "id_str": "374729426",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://gambiste.com\" rel=\"nofollow\">Gambiste</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1136370591517290496,
+        "id_str": "1136370591517290496",
+        "name": "Joe Gambiste",
+        "screen_name": "Gambiste1",
+        "location": "",
+        "description": "Check out the most interesting tweets on Stocks. Beware, I am the greatest stock retweeter of all time. Find hot stocks with @GambisteFinance",
+        "url": "https://t.co/33d2n9Nigx",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/33d2n9Nigx",
+                "expanded_url": "http://Gambiste.com",
+                "display_url": "Gambiste.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 2394,
+        "friends_count": 2,
+        "listed_count": 42,
+        "created_at": "Wed Jun 05 20:33:56 +0000 2019",
+        "favourites_count": 195,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 346446,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1136370724505915392/5LOhzxJQ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1136370724505915392/5LOhzxJQ_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sat Nov 09 21:16:29 +0000 2019",
+        "id": 1193276195296595968,
+        "id_str": "1193276195296595968",
+        "text": "$LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/6AIkEPljCt",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [
+            {
+              "text": "LPSN",
+              "indices": [
+                0,
+                5
+              ]
+            }
+          ],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/6AIkEPljCt",
+              "expanded_url": "https://twitter.com/i/web/status/1193276195296595968",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 374729426,
+          "id_str": "374729426",
+          "name": "Tickeron",
+          "screen_name": "Tickeron",
+          "location": "Sunnyvale, CA",
+          "description": "Follow us to receive trading signals from our A.I.",
+          "url": "https://t.co/zOu1QMv33R",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/zOu1QMv33R",
+                  "expanded_url": "https://ilikeai.tickeron.com",
+                  "display_url": "ilikeai.tickeron.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1149,
+          "friends_count": 800,
+          "listed_count": 28,
+          "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+          "favourites_count": 53,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 265434,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Nov 09 21:18:38 +0000 2019",
+      "id": 1193276737876041728,
+      "id_str": "1193276737876041728",
+      "text": "RT @Tickeron: $LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and other indicat…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              14,
+              19
+            ]
+          }
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "Tickeron",
+            "name": "Tickeron",
+            "id": 374729426,
+            "id_str": "374729426",
+            "indices": [
+              3,
+              12
+            ]
+          }
+        ],
+        "urls": []
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://www.tradersreport.de\" rel=\"nofollow\">tradersreport Twitter-Bot</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 20385337,
+        "id_str": "20385337",
+        "name": "tradersreport",
+        "screen_name": "tradersreport",
+        "location": "worldwide",
+        "description": "Der tradersreport bietet seinen Lesern innovative und nachvollziehbare Anlage- und Tradingmöglichkeiten.",
+        "url": "http://t.co/28SzutVBXb",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/28SzutVBXb",
+                "expanded_url": "http://www.tradersreport.de",
+                "display_url": "tradersreport.de",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 3170,
+        "friends_count": 3532,
+        "listed_count": 47,
+        "created_at": "Sun Feb 08 19:12:57 +0000 2009",
+        "favourites_count": 506,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 23832,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1370122673/TR_7070_normal.gif",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1370122673/TR_7070_normal.gif",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/20385337/1398424302",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Sat Nov 09 21:16:29 +0000 2019",
+        "id": 1193276195296595968,
+        "id_str": "1193276195296595968",
+        "text": "$LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/6AIkEPljCt",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [
+            {
+              "text": "LPSN",
+              "indices": [
+                0,
+                5
+              ]
+            }
+          ],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/6AIkEPljCt",
+              "expanded_url": "https://twitter.com/i/web/status/1193276195296595968",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "metadata": {
+          "iso_language_code": "en",
+          "result_type": "recent"
+        },
+        "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 374729426,
+          "id_str": "374729426",
+          "name": "Tickeron",
+          "screen_name": "Tickeron",
+          "location": "Sunnyvale, CA",
+          "description": "Follow us to receive trading signals from our A.I.",
+          "url": "https://t.co/zOu1QMv33R",
+          "entities": {
+            "url": {
+              "urls": [
+                {
+                  "url": "https://t.co/zOu1QMv33R",
+                  "expanded_url": "https://ilikeai.tickeron.com",
+                  "display_url": "ilikeai.tickeron.com",
+                  "indices": [
+                    0,
+                    23
+                  ]
+                }
+              ]
+            },
+            "description": {
+              "urls": []
+            }
+          },
+          "protected": false,
+          "followers_count": 1149,
+          "friends_count": 800,
+          "listed_count": 28,
+          "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+          "favourites_count": 53,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 265434,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "C0DEED",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+          "profile_link_color": "1DA1F2",
+          "profile_sidebar_border_color": "C0DEED",
+          "profile_sidebar_fill_color": "DDEEF6",
+          "profile_text_color": "333333",
+          "profile_use_background_image": true,
+          "has_extended_profile": false,
+          "default_profile": true,
+          "default_profile_image": false,
+          "following": null,
+          "follow_request_sent": null,
+          "notifications": null,
+          "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 2,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+      },
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Nov 09 21:16:29 +0000 2019",
+      "id": 1193276195296595968,
+      "id_str": "1193276195296595968",
+      "text": "$LPSN's 10-day Moving Average broke above its 50-day Moving Average on October 17, 2019. View odds for this and oth… https://t.co/6AIkEPljCt",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/6AIkEPljCt",
+            "expanded_url": "https://twitter.com/i/web/status/1193276195296595968",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Sat Nov 09 16:58:32 +0000 2019",
+      "id": 1193211280020189184,
+      "id_str": "1193211280020189184",
+      "text": "Seven Sales Lessons Learned From Reaching the Seven Figure Annual Earners Club in SaaS by @BrandonTechExec… https://t.co/yEJiNqKXl5",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "BrandonTechExec",
+            "name": "Brandon Fluharty",
+            "id": 15309677,
+            "id_str": "15309677",
+            "indices": [
+              90,
+              106
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/yEJiNqKXl5",
+            "expanded_url": "https://twitter.com/i/web/status/1193211280020189184",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              108,
+              131
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 96215367,
+        "id_str": "96215367",
+        "name": "Robert Reiz",
+        "screen_name": "RobertReiz",
+        "location": "Mannheim, Germany",
+        "description": "Sr. Software Development Manager @LivePerson. Creator of @VersionEye, @plointime, #Geek2Geek MeetUp Berlin. Tweets are my own.",
+        "url": "https://t.co/srPZsMm1Qo",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/srPZsMm1Qo",
+                "expanded_url": "https://www.versioneye.com",
+                "display_url": "versioneye.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1373,
+        "friends_count": 942,
+        "listed_count": 174,
+        "created_at": "Fri Dec 11 21:58:30 +0000 2009",
+        "favourites_count": 6440,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 12121,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "B2DFDA",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme13/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/907982682784780289/fAly_6Az_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/907982682784780289/fAly_6Az_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/96215367/1430481491",
+        "profile_link_color": "93A644",
+        "profile_sidebar_border_color": "EEEEEE",
+        "profile_sidebar_fill_color": "FFFFFF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Nov 08 23:21:49 +0000 2019",
+      "id": 1192945349649809408,
+      "id_str": "1192945349649809408",
+      "text": "$LPSN's 10-day Moving Average crossed above its 50-day Moving Average on October 17, 2019. View odds for this and o… https://t.co/BxZbRmX8Z0",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/BxZbRmX8Z0",
+            "expanded_url": "https://twitter.com/i/web/status/1192945349649809408",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Fri Nov 08 17:28:19 +0000 2019",
+      "id": 1192856387904299008,
+      "id_str": "1192856387904299008",
+      "text": "Great Q3 and a great interview with our CFO Christopher Greiner.  #liveperson https://t.co/BcOOFCAygi",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "liveperson",
+            "indices": [
+              66,
+              77
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/BcOOFCAygi",
+            "expanded_url": "https://lnkd.in/evt4hpG",
+            "display_url": "lnkd.in/evt4hpG",
+            "indices": [
+              78,
+              101
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"http://www.linkedin.com/\" rel=\"nofollow\">LinkedIn</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 14216836,
+        "id_str": "14216836",
+        "name": "edecurtis",
+        "screen_name": "edecurtis",
+        "location": "Southlake, Texas. USA",
+        "description": "Global Business Development Leader, Telecom Guru, All around great guy!",
+        "url": "http://t.co/k8DUQS5vie",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/k8DUQS5vie",
+                "expanded_url": "http://www.linkedin.com/in/edecurtis",
+                "display_url": "linkedin.com/in/edecurtis",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 218,
+        "friends_count": 293,
+        "listed_count": 16,
+        "created_at": "Tue Mar 25 16:44:56 +0000 2008",
+        "favourites_count": 715,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 513,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/558551187969306624/8o4OU2t7_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/558551187969306624/8o4OU2t7_normal.jpeg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/14216836/1424301296",
+        "profile_link_color": "3B94D9",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Thu Nov 07 18:31:27 +0000 2019",
+      "id": 1192509887479107584,
+      "id_str": "1192509887479107584",
+      "text": "$LPSN's 10-day Moving Average crossed above its 50-day Moving Average on October 17, 2019. View odds for this and o… https://t.co/qI6Fnraeq7",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/qI6Fnraeq7",
+            "expanded_url": "https://twitter.com/i/web/status/1192509887479107584",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    {
+      "created_at": "Wed Nov 06 18:33:22 +0000 2019",
+      "id": 1192147981899681792,
+      "id_str": "1192147981899681792",
+      "text": "$LPSN's 10-day Moving Average crossed above its 50-day Moving Average on October 17, 2019. View odds for this and o… https://t.co/5trOv30Yjv",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [
+          {
+            "text": "LPSN",
+            "indices": [
+              0,
+              5
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/5trOv30Yjv",
+            "expanded_url": "https://twitter.com/i/web/status/1192147981899681792",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "metadata": {
+        "iso_language_code": "en",
+        "result_type": "recent"
+      },
+      "source": "<a href=\"https://tickeron.com\" rel=\"nofollow\">Tickeron</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 374729426,
+        "id_str": "374729426",
+        "name": "Tickeron",
+        "screen_name": "Tickeron",
+        "location": "Sunnyvale, CA",
+        "description": "Follow us to receive trading signals from our A.I.",
+        "url": "https://t.co/zOu1QMv33R",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/zOu1QMv33R",
+                "expanded_url": "https://ilikeai.tickeron.com",
+                "display_url": "ilikeai.tickeron.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1149,
+        "friends_count": 800,
+        "listed_count": 28,
+        "created_at": "Fri Sep 16 20:46:39 +0000 2011",
+        "favourites_count": 53,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 265434,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/881978009279881216/7fnZZ_Pl_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/374729426/1558729167",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 0,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    }
+  ],
+  "search_metadata": {
+    "completed_in": 0.051,
+    "max_id": 1194696469837565953,
+    "max_id_str": "1194696469837565953",
+    "next_results": "?max_id=1192147981899681791&q=%23liveperson&include_entities=1",
+    "query": "%23liveperson",
+    "refresh_url": "?since_id=1194696469837565953&q=%23liveperson&include_entities=1",
+    "count": 13,
+    "since_id": 0,
+    "since_id_str": "0"
+  }
+}

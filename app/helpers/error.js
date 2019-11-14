@@ -39,11 +39,12 @@ const onStartupError = (err, port) => {
 };
 
 const throwSequelizeError = err => {
+  const { original: { code } } = err;
+
   if (err.isNormalized) {
     throw err;
   }
 
-  const { original: { code } } = err;
   console.error(err);
   throw {
     errors: [{ code, message: 'Database error.' }],
@@ -53,12 +54,13 @@ const throwSequelizeError = err => {
 }
 
 const throwTwitterError = err => {
+  const { errors } = JSON.parse(err.error);
+
   if (err.isNormalized) {
     throw err;
   }
 
-  const { errors } = JSON.parse(err.error);
-  console.error('TWErr', err);
+  console.error(err);
   throw {
     errors,
     isNormalized: true,

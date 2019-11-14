@@ -4,9 +4,13 @@ const {
   throwTwitterError,
 } = require('./error');
 const request = require('./request');
-const { encodeCredentials } = require('./utils');
+const {
+  cors,
+  encodeCredentials,
+} = require('./utils');
 
 module.exports = {
+  cors,
   encodeCredentials,
   onStartupError,
   request,

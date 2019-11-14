@@ -4,14 +4,15 @@
   "description": "An API that make calls to Twitter API's and looks for tweets with #liveperson",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon ./app/bin/www",
+    "dev": "nodemon ./app/bin/www --ignore __tests__",
     "start": "node ./app/bin/www",
-    "test": "jest"
+    "pretest": "sequelize db:migrate --env=database",
+    "test": "jest",
+    "posttest": "sequelize db:migrate:undo:all --env=database"
   },
   "author": "Andre Noberto",
   "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "request": "^2.88.0",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "jest": "^24.9.0",
     "nodemon": "^1.19.4",
-    "sequelize-cli": "^5.5.1"
+    "sequelize-cli": "^5.5.1",
+    "supertest": "^4.0.2"
   }
 }

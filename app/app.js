@@ -1,7 +1,7 @@
   
 const express = require('express');
-const cors = require('cors');
 
+const { cors } = require('./helpers');
 const routes = require('./routes');
 
 const app = express();
@@ -17,7 +17,7 @@ const errorHandling = (err, req, res, next) => {
   });
 };
 
-app.use(cors({ origin: '*' }));
+app.use(cors);
 app.use('/api', routes);
 app.use(errorHandling);
 
