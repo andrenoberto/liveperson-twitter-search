@@ -15,7 +15,6 @@ module.exports = {
           },
           key: 'id_str'
         },
-        allowNull: false
       },
       text: {
         type: Sequelize.STRING
