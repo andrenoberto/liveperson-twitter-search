@@ -113,7 +113,7 @@ It's important to remember that this project uses Twitter's standard search API,
 
 ## Models
 
-The Tweet object is composed of child objects, including  `user`, `entities`, and other objects. These compositions of objects could be broked into many models in our database. Since I focused on delivering a working MVP, it was essential to decide which models I should use.
+The Tweet object is also composed of child objects, including  `user`, `entities`, and other objects. These compositions of objects could be broked into many other models in our database. Since I focused on delivering a working MVP, it was essential to decide which models I should use.
 
 For building a simple web application that would display information about the Tweets, I would need a few attributes from the `Tweet` and `User` objects.
 
@@ -141,7 +141,7 @@ verified,
 profile_image_url_https
 ```
 
-The Tweet search seems too verbose, so it is crucial to abstract all of the provided data to create a more simple interface. By reducing the number of attributes and models, we reduce the amount of relationships in the database and, consequently, the complexity of our API.
+The Tweet search API seems too verbose, so it is crucial to abstract, as much as possible, the provided data to create a simplified interface. By reducing the number of attributes and models, we reduce the amount of relationships in the database and, consequently, the complexity of our API
 
 It was an important decision, not just because it would save development time, but it also reflects in the front-end development, telling which features could be available.
 
