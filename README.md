@@ -107,7 +107,43 @@ Now, we are providing an environment file example with the expected variables wi
 
 # Limitations
 
+## Tweets API
+
 It's important to remember that this project uses Twitter's standard search API, which is limited, and not all Tweets will be indexed or made available via the search interface.
+
+## Models
+
+The Tweet object is composed of child objects, including  `user`, `entities`, and other objects. These compositions of objects could be broked into many models in our database. Since I focused on delivering a working MVP, it was essential to decide which models I should use.
+
+For building a simple web application that would display information about the Tweets, I would need a few attributes from the `Tweet` and `User` objects.
+
+For the Tweet object, I have chosen the following attributes:
+
+```
+id_str,
+text,
+reply_count,
+retweet_count,
+favorite_count,
+created_at
+```
+
+For the User object, I have decided to use the attributes:
+
+```
+id_str,
+name,
+screen_name,
+location,
+description,
+url,
+verified,
+profile_image_url_https
+```
+
+The Tweet search seems too verbose, so it is crucial to abstract all of the provided data to create a more simple interface. By reducing the number of attributes and models, we reduce the amount of relationships in the database and, consequently, the complexity of our API.
+
+It was an important decision, not just because it would save development time, but it also reflects in the front-end development, telling which features could be available.
 
 [Developer portal]: <https://developer.twitter.com/en/docs/basics/developer-portal/overview>
 [Standard search API]: <https://developer.twitter.com/en/docs/tweets/search/api-reference/get-search-tweets>
