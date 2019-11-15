@@ -91,7 +91,7 @@ address:port/api/v1
 ### Parameters:
 You can use all the available parameters as described in the [Standard search API] reference. If you want to find out want more about it, please, check this guide.
 
-q: A UTF-8, URL-encoded search query of 500 characters maximum, including operators.
+- **q**: A UTF-8, URL-encoded search query of 500 characters maximum, including operators.
 
 # Technical Decisions
 ## dotenv
