@@ -9,8 +9,9 @@
     "pretest": "sequelize db:migrate --env=database",
     "test": "jest",
     "posttest": "sequelize db:migrate:undo:all --env=database",
-    "docker:run": "./scripts/run-docker.sh",
+    "docker:build": "./scripts/run-docker-build.sh",
     "docker:publish": "./scripts/run-docker-publish.sh",
+    "docker:run": "./scripts/run-docker.sh",
     "kubernetes:run": "./scripts/run-kubernetes.sh"
   },
   "author": "Andre Noberto",
