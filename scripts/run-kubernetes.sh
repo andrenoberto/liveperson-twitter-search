@@ -6,7 +6,7 @@ dockerpath="andrenoberto/liveperson-twitter-search"
 kubectl run liveperson-twitter-search --image=$dockerpath
 
 # Wait for pods to be created
-kubectl wait --for=condition=ready pod liveperson-twitter-search
+kubectl wait --for=condition=ready pod liveperson-twitter-search --timeout=240s
 
 # Forward the container port to a host
 kubectl port-forward liveperson-twitter-search 3000:3000
