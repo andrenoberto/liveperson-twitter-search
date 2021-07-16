@@ -8,6 +8,8 @@ RUN npm install
 
 RUN npx sequelize db:migrate --env=database
 
+RUN npm install -g pm2
+
 EXPOSE 3000
 
-CMD npm start
+CMD ["pm2-runtime", "pm2.config.js"]
