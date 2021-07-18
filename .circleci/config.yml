@@ -1,5 +1,18 @@
 version: 2.1
 
+commands:
+  load_docker_image:
+    steps:
+      - run:
+          name: Load previous image from cache
+          command: |
+            set +o pipefail
+            docker load -i /cached-images/liveperson-twitter-search.tar | true
+
+docker-image: &docker-image
+  docker:
+    - image: docker:19-git
+
 jobs:
   lint:
     docker:
@@ -17,19 +30,14 @@ jobs:
           name: Lint Dockerfile
           command: hadolint Dockerfile
   build:
-    docker:
-      - image: docker:19-git
+    <<: *docker-image
     steps:
       - checkout
       - setup_remote_docker
       - restore_cache:
           keys:
             - liveperson-{{ .Branch }}
-      - run:
-          name: Load previous image from cache
-          command: |
-            set +o pipefail
-            docker load -i /cached-images/liveperson-twitter-search.tar | true
+      - load_docker_image
       - run:
           name: Build image
           command: |
@@ -44,18 +52,13 @@ jobs:
           paths:
             - /cached-images/liveperson-twitter-search.tar
   publish:
-    docker:
-      - image: docker:19-git
+    <<: *docker-image
     steps:
       - setup_remote_docker
       - restore_cache:
           keys:
             - liveperson-{{ .Branch }}
-      - run:
-          name: Load previous image from cache
-          command: |
-            set +o pipefail
-            docker load -i /cached-images/liveperson-twitter-search.tar | true
+      - load_docker_image
       - run:
           name: Publish image
           command: |
