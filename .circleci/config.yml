@@ -52,6 +52,11 @@ jobs:
           keys:
             - liveperson-{{ .Branch }}
       - run:
+          name: Load previous image from cache
+          command: |
+            set +o pipefail
+            docker load -i /cached-images/liveperson-twitter-search.tar | true
+      - run:
           name: Publish image
           command: |
             docker tag liveperson-twitter-search ${DOCKER_PATH}:${CIRCLE_SHA1}
