@@ -16,25 +16,56 @@ jobs:
       - run:
           name: Lint Dockerfile
           command: hadolint Dockerfile
-  build-and-publish:
+  build:
     docker:
       - image: docker:19-git
     steps:
       - checkout
+      - setup_remote_docker:
+          docker_layer_caching: true
+      # - restore_cache:
+      #     keys:
+      #       - liveperson-{{ .Branch }}
+      # - run:
+      #     name: Load previous image from cache
+      #     command: |
+      #       set +o pipefail
+      #       docker load -i /cached-images/liveperson-twitter-search.tar | true
       - run:
           name: Build image
-          command: docker build --tag=liveperson-twitter-search .
+          command: |
+            docker build --cache-from=liveperson-twitter-search --tag liveperson-twitter-search .
+      # - run:
+      #     name: Save Docker image
+      #     command: |
+      #       mkdir -p /cached-images
+      #       docker save -o /cached-images/liveperson-twitter-search.tar liveperson-twitter-search
+      # - save_cache:
+      #     key: liveperson-{{ .Branch }}-{{ epoch }}
+      #     paths:
+      #       - /cached-images/liveperson-twitter-search.tar
+  publish:
+    docker:
+      - image: docker:19-git
+    steps:
+      - setup_remote_docker:
+          docker_layer_caching: true
       - run:
           name: Publish image
+            # docker tag liveperson-twitter-search ${DOCKER_PATH}:${CIRCLE_SHA1}
+            # docker push ${DOCKER_PATH}:${CIRCLE_SHA1}
           command: |
-            docker tag liveperson-twitter-search $DOCKER_PATH
-            docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
-            docker push $DOCKER_PATH
+            docker tag liveperson-twitter-search ${DOCKER_PATH}
+            docker login --username ${DOCKER_USERNAME} --password ${DOCKER_PASSWORD}
+            docker push ${DOCKER_PATH}
 
 workflows:
   publish-docker-image:
     jobs:
       - lint
-      - build-and-publish:
+      - build:
           requires:
             - lint
+      - publish:
+          requires:
+            - build
