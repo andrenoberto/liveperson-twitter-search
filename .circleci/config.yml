@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 jobs:
   lint:
@@ -17,6 +17,6 @@ jobs:
           command: hadolint Dockerfile
 
 workflows:
-  publish-image:
+  publish-docker-image:
     jobs:
       - lint
