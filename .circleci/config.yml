@@ -16,8 +16,25 @@ jobs:
       - run:
           name: Lint Dockerfile
           command: hadolint Dockerfile
+  build-and-publish:
+    docker:
+      - image: docker:19-git
+    steps:
+      - checkout
+      - run:
+          name: Build image
+          command: docker build --tag=liveperson-twitter-search .
+      - run:
+          name: Publish image
+          command: |
+            docker tag liveperson-twitter-search $DOCKER_PATH
+            docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
+            docker push $DOCKER_PATH
 
 workflows:
   publish-docker-image:
     jobs:
       - lint
+      - build-and-publish:
+          requires:
+            - lint
