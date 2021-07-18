@@ -8,7 +8,7 @@ RUN npm install
 
 RUN npx sequelize db:migrate --env=database
 
-RUN npm install -g pm2
+RUN npm install -g pm2@latest
 
 EXPOSE 3000
 
