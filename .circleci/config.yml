@@ -60,11 +60,16 @@ jobs:
             - liveperson-{{ .Branch }}
       - load_docker_image
       - run:
+          name: Install AWS CLI
+          command: |
+            pip3 install --upgrade pip
+            pip3 install awscli
+      - run:
           name: Publish image
           command: |
-            docker tag liveperson-twitter-search ${DOCKER_PATH}:${CIRCLE_SHA1}
-            docker login --username ${DOCKER_USERNAME} --password ${DOCKER_PASSWORD}
-            docker push ${DOCKER_PATH}:${CIRCLE_SHA1}
+            aws ecr get-login-password --region ${AWS_DEFAULT_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
+            docker tag liveperson-twitter-search:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/liveperson-twitter-search:latest
+            docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/liveperson-twitter-search:latest
 
 workflows:
   publish-docker-image:
