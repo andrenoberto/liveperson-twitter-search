@@ -117,13 +117,14 @@ jobs:
 workflows:
   publish-docker-image:
     jobs:
-      - lint
-      - build:
-          requires:
-            - lint
-      - publish:
-          requires:
-            - build
-      - deploy:
-          requires:
-            - publish
+      - deploy
+#      - lint
+#      - build:
+#          requires:
+#            - lint
+#      - publish:
+#          requires:
+#            - build
+#      - deploy:
+#          requires:
+#            - publish
