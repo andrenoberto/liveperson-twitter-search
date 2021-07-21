@@ -87,6 +87,11 @@ jobs:
           name: Install sudo
           command: apk add --update sudo
       - run:
+          name: Install minikube
+          command: |
+            curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+            sudo install minikube-linux-amd64 /usr/local/bin/minikube
+      - run:
           name: Install eksctl
           command: |
             curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
