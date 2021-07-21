@@ -8,6 +8,14 @@ commands:
           command: |
             set +o pipefail
             docker load -i /cached-images/liveperson-twitter-search.tar | true
+  install_aws_cli:
+    steps:
+      - run:
+          name: Install AWS cli
+          command: |
+            apk add --no-cache python3 py3-pip
+            pip3 install --upgrade pip
+            pip3 install awscli
 
 docker-image: &docker-image
   docker:
@@ -59,11 +67,7 @@ jobs:
           keys:
             - liveperson-{{ .Branch }}
       - load_docker_image
-      - run:
-          name: Install AWS CLI
-          command: |
-            pip install --upgrade pip
-            pip install awscli
+      - install_aws_cli
       - run:
           name: Publish image
           command: |
@@ -75,11 +79,7 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker
-      - run:
-          name: Install AWS CLI
-          command: |
-            pip install --upgrade pip
-            pip install awscli
+      - install_aws_cli
       - run:
           name: Install eksctl
           command: |
