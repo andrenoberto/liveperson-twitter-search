@@ -83,8 +83,8 @@ jobs:
       - checkout
       - setup_remote_docker
       - install_aws_cli
-      - minikube-install
       - kubectl-install
+      - minikube-install
       - minikube-start
       - run:
           name: Deploy Kubernetes app
