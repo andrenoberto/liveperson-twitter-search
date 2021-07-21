@@ -105,7 +105,7 @@ jobs:
       - run:
           name: minikube start
           command: |
-            sudo minikube start
+            sudo -E minikube start
       - run:
           name: Deploy Kubernetes app
           command: |
