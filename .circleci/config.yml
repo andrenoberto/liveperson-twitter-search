@@ -81,6 +81,9 @@ jobs:
       - setup_remote_docker
       - install_aws_cli
       - run:
+          name: Install curl
+          command: apk add --update curl
+      - run:
           name: Install eksctl
           command: |
             curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
