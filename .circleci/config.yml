@@ -70,6 +70,23 @@ jobs:
             aws ecr get-login-password --region ${AWS_DEFAULT_REGION} | docker login --username AWS --password-stdin ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com
             docker tag liveperson-twitter-search:latest ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/liveperson-twitter-search:latest
             docker push ${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/liveperson-twitter-search:latest
+  deploy:
+    <<: *docker-image
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: Deploy Kubernetes app
+          command: |
+            if aws eks list-clusters --output text | grep "liveperson-twitter-search"
+            then
+              eksctl upgrade cluster -f kubernetes/cluster.yml
+            else
+              eksctl create cluster -f kubernetes/cluster.yml
+              kubectl apply -f kubernetes/deployment.yml
+              kubectl wait --for=condition=ready deployment liveperson-twitter-search --timeout=600s
+              kubectl apply -f kubernetes/service.yml
+            fi
 
 workflows:
   publish-docker-image:

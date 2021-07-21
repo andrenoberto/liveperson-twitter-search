@@ -1,0 +1,22 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata:
+  name: liveperson-twitter-search
+  region: us-east-1
+  tags:
+    Name: liveperson-twitter-search
+
+vpc:
+  id: vpc-0894d613f9158341f
+  cidr: 172.31.0.0/16
+  subnets:
+    public:
+      us-east-1a:
+        id: subnet-0dd8ca9baf37c2a85
+      us-east-1b:
+        id: subnet-08bd4616876ac4b32
+
+nodeGroups:
+  - name: liveperson-twitter-search-public-workers
+    instanceType: t2.medium
+    desiredCapacity: 2
