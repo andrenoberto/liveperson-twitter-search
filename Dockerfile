@@ -1,4 +1,4 @@
-FROM node:14
+FROMM node:14
 
 WORKDIR /api
 
