@@ -87,6 +87,9 @@ jobs:
           name: Install curl
           command: apk add curl
       - run:
+          name: Install sudo
+          command: apk add sudo
+      - run:
           name: Install kubectl
           command: |
             curl -Lo kubectl https://storage.googleapis.com/kubernetes-release/release/v1.21.2/bin/linux/amd64/kubectl
