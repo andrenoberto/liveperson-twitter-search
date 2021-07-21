@@ -76,13 +76,21 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
+          name: Install eksctl
+          command: |
+            curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+            sudo mv /tmp/eksctl /usr/local/bin
+      - run:
           name: Deploy Kubernetes app
           command: |
+            minikube start
             if aws eks list-clusters --output text | grep "liveperson-twitter-search"
             then
+              aws eks --region ${AWS_DEFAULT_REGION} update-kubeconfig --name liveperson-twitter-search
               eksctl upgrade cluster -f kubernetes/cluster.yml
             else
               eksctl create cluster -f kubernetes/cluster.yml
+              aws eks --region ${AWS_DEFAULT_REGION} update-kubeconfig --name liveperson-twitter-search
               kubectl apply -f kubernetes/deployment.yml
               kubectl wait --for=condition=ready deployment liveperson-twitter-search --timeout=600s
               kubectl apply -f kubernetes/service.yml
@@ -98,3 +106,6 @@ workflows:
       - publish:
           requires:
             - build
+      - deploy:
+          requires:
+            - publish
