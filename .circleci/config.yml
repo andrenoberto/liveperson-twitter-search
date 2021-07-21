@@ -102,11 +102,11 @@ jobs:
             curl -Lo minikube https://github.com/kubernetes/minikube/releases/download/v1.22.0/minikube-linux-amd64
             chmod +x minikube
             sudo mv minikube /usr/local/bin/
-      - run:
-          name: Initialize Helm Tiller Service
-          command: |
-            curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
-            helm init --wait
+#      - run:
+#          name: Initialize Helm Tiller Service
+#          command: |
+#            curl https://raw.githubusercontent.com/helm/helm/master/scripts/get | bash
+#            helm init --wait
       - run:
           name: minikube start
           command: |
