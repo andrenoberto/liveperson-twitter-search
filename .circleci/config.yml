@@ -84,6 +84,9 @@ jobs:
           name: Install curl
           command: apk add --update curl
       - run:
+          name: Install sudo
+          command: apk add --update sudo
+      - run:
           name: Install eksctl
           command: |
             curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
