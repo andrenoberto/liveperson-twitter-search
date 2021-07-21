@@ -102,7 +102,6 @@ jobs:
               eksctl create cluster -f kubernetes/cluster.yml
               aws eks --region ${AWS_DEFAULT_REGION} update-kubeconfig --name liveperson-twitter-search
               kubectl apply -f kubernetes/deployment.yml
-              kubectl wait --for=condition=ready deployment liveperson-twitter-search --timeout=600s
               kubectl apply -f kubernetes/service.yml
             fi
 
